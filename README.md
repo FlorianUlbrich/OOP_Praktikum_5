@@ -45,10 +45,10 @@ Der berechnete Pythagoras-Baum; Export als Bilddatei.
 Das Programm wird auf Wunsch des Benutzers beendet.
 
 ### Hinweise
-Seien a, b, c die drei Seiten eines rechtwinkligen Dreiecks. Der Winkel &beta  zwischen den Seiten a und c ergibt sich zu \beta  = arccos (a/c). Entsprechend ist der Winkel \alpha zwischen den Seiten b und c: \alpha = arccos (b/c). Der Winkel \gamma zwischen a und b ist immer \gamma = 90°. Es gilt: \alpha + \beta + \gamma = 180°. Beachten Sie, dass die trigonometrischen Funktionen in Java alle im Bogenmaß rechnen: 90° = \pi/2
+Seien a, b, c die drei Seiten eines rechtwinkligen Dreiecks. Der Winkel β zwischen den Seiten a und c ergibt sich zu β = arccos (a/c). Entsprechend ist der Winkel α zwischen den Seiten b und c: α = arccos (b/c). Der Winkel γ zwischen a und b ist immer γ = 90°. Es gilt: α + β + γ = 180°. Beachten Sie, dass die trigonometrischen Funktionen in Java alle im Bogenmaß rechnen: 90° = π/2
 
 Der Punkt Pc an der Spitze des Dreiecks ergibt sich zu
-  Pc.х = cos (\beta) • \alpha + Pa,r
-  Pc:y = sin (\beta) • \alpha + Pa,y
+  Pc.х = cos (β) • α + Pa,r
+  Pc:y = sin (β) • α + Pa,y
 
 Alle anderen Punkte lassen sich analog berechnen.
