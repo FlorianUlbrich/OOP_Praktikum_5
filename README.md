@@ -48,7 +48,7 @@ Das Programm wird auf Wunsch des Benutzers beendet.
 Seien a, b, c die drei Seiten eines rechtwinkligen Dreiecks. Der Winkel β zwischen den Seiten a und c ergibt sich zu β = arccos (a/c). Entsprechend ist der Winkel α zwischen den Seiten b und c: α = arccos (b/c). Der Winkel γ zwischen a und b ist immer γ = 90°. Es gilt: α + β + γ = 180°. Beachten Sie, dass die trigonometrischen Funktionen in Java alle im Bogenmaß rechnen: 90° = π/2
 
 Der Punkt Pc an der Spitze des Dreiecks ergibt sich zu
-  * Pc.х = cos (β) • α + Pa,r
+  * Pc.х = cos (β) • α + Pa,x
   * Pc.y = sin (β) • α + Pa,y
 
 Alle anderen Punkte lassen sich analog berechnen.
